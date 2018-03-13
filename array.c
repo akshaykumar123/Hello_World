@@ -1,8 +1,8 @@
-#include<stdio.H>
+#include<stdio.h>
 int main()
 {
 int length;
-int array[3]={1,2,3};
+int array[3]={"1","2","3"};
 length = array[0]/sizeof(array);
  for(int i=0;i<length;i++)
  {
